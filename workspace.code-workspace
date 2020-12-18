@@ -11,25 +11,17 @@
 		}
 	],
 	"settings": {
-		"maven.excludedFolders": [
-			"**/.*",
-			"**/node_modules",
-			"**/target",
-			"**/bin",
-			"**/demo-frontend",
-			"./demo-frontend/",
-			"demo-frontend/",
-			"demo-frontend",
-			"./demo-frontend",
-			"./test-workspace/demo-frontend",
-			"test-workspace/demo-frontend",
-			"test-workspace/demo-frontend/**",
-		],
 		"java.project.resourceFilters": [
 			"node_modules",
 			".git",
-			"demo-frontend",
-			
-		]
+			"demo-frontend/node_modules",
+		],
+		"java.import.exclusions": [
+			"**/node_modules/**",
+			"**/.metadata/**",
+			"**/archetype-resources/**",
+			"**/META-INF/maven/**",
+			"**/demo-frontend/**"
+		],
 	}
-}			
+}
