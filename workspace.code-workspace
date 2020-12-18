@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "demo"
+		},
+		{
+			"path": "demo-frontend"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"maven.excludedFolders": [
+			"**/.*",
+			"**/node_modules",
+			"**/target",
+			"**/bin",
+			"**/demo-frontend",
+			"./demo-frontend/",
+			"demo-frontend/",
+			"demo-frontend",
+			"./demo-frontend",
+			"./test-workspace/demo-frontend",
+			"test-workspace/demo-frontend",
+			"test-workspace/demo-frontend/**",
+		],
+		"java.project.resourceFilters": [
+			"node_modules",
+			".git",
+			"demo-frontend",
+			
+		]
+	}
+}			
